@@ -18,7 +18,7 @@ in directory: clock_python
 ```bash
 pip3 install pygame
 ```
-- then in your code editor, cd into the correct directory and run the code
+- in your code editor, run the file: clock.py
 ### **Robot Game**
 in directory: robogame_python
 >This game - also exploiting Pygame - was the final project of the *Advanced Course in Programming*. The task was to create a game with a moving character collecting some things, and including a counter to show the progress in game.
@@ -28,12 +28,14 @@ in directory: robogame_python
 ```bash
 pip3 install pygame
 ```
-- then in your code editor, cd into the correct directory and run the code
+- run the file: game.py
 - enjoy the fabulous game!!
 
 ### **Storage Application**
 in directory: storageApp_python
 >This application was an exam task of *Advanced Course in Programming* focused on object-oriented programming. The task was to create an application for handling a storage data: the app should ask user for the name of the data file, create this file, and use several different commands to add or remove items from the storage file, or to list the contents of the file.
+
+To run the application, run the file: storage.py
 ___
 ## React JavaScript application
 in directory: surveys_javascript

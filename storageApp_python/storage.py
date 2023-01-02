@@ -1,4 +1,3 @@
-# Tee tehtävän 2 ratkaisu tänne
 class Varastoluettelo():
     def __init__(self):
         pass
@@ -77,27 +76,27 @@ class Varastosovellus:
         self.__listaus.alusta_tiedosto(tiedosto)
 
     def esineen_lisays(self, tiedosto):
-        esine = input("Anna esine, jonka haluat lisätä: ")
+        esine = input("Anna tuote, jonka haluat lisätä: ")
         self.__listaus.lisaa_esine(esine, tiedosto)
 
     def listaa_esineet(self, tiedosto):
         esineet = self.__listaus.hae_esineet(tiedosto)
-        print("\nTiedostossa olevat esineet:")
+        print("\nTiedostossa olevat tuotteet:")
         lista = {esine : esineet.count(esine) for esine in esineet}
         for avain, arvo in lista.items():
             print(f"{avain}, {arvo} kpl")
     
     def hae_esine(self, tiedosto):
-        esine = input("Anna esine, jonka tiedot haluat hakea: ")
+        esine = input("Anna tuote, jonka tiedot haluat hakea: ")
         esineet = self.__listaus.hae_esineet(tiedosto, esine)
         print(f"\n{esine}, {esineet.count(esine)} kpl")
     
     def poista_kaikki_esineet(self, tiedosto):
-        esine = input("Anna esine, jotka haluat poistaa tiedostosta kokonaan: ")
+        esine = input("Anna tuote, jotka haluat poistaa tiedostosta kokonaan: ")
         self.__listaus.poista_kaikki(esine, tiedosto)
 
     def poista_esine(self, tiedosto):
-        esine = input("Anna esine, jonka haluat poistaa tiedostosta: ")
+        esine = input("Anna tuote, jonka haluat poistaa tiedostosta: ")
         self.__listaus.poista_yksi(esine, tiedosto)
 
     def ohje(self):

@@ -1,0 +1,346 @@
+{
+  "surveys": [
+    {
+      "surveyTitle": "What to do on your summer holiday?",
+      "surveyDescription": "This survey is collecting data on what people would like to do during their summer holiday.",
+      "questions": [
+        {
+          "questionTitle": "Which of the the following would you like to do the most?",
+          "dropdownQuestionOptions": [
+            "Travelling around",
+            "Just relaxing",
+            "Coding",
+            "Diving in warm waters"
+          ],
+          "questionType": "dropdown",
+          "questionId": 202
+        },
+        {
+          "questionTitle": "Write shortly about your favorite summer memory.",
+          "dropdownQuestionOptions": "",
+          "questionType": "freetext",
+          "questionId": 155
+        },
+        {
+          "questionTitle": "What did you do last summer?",
+          "dropdownQuestionOptions": "",
+          "questionType": "freetext",
+          "questionId": 150
+        },
+        {
+          "questionTitle": "The best things in summer? Choose one or more answers.",
+          "dropdownQuestionOptions": [
+            "Sun and light",
+            "Ice cream",
+            "Beach and swimming",
+            "Mosquitoes"
+          ],
+          "questionType": "multiple-choice",
+          "questionId": 319
+        }
+      ],
+      "answers": [
+        {
+          "150": "slept",
+          "155": "swimming",
+          "202": "Travelling around",
+          "319": [
+            "Sun and light",
+            "Ice cream",
+            null,
+            null
+          ]
+        },
+        {
+          "150": ",k,,,,,,,,,,,,,,,,,",
+          "155": "lkjjjljjb",
+          "202": "Just relaxing",
+          "319": [
+            "Sun and light",
+            "Ice cream",
+            "Beach and swimming",
+            null
+          ]
+        },
+        {
+          "150": "lllllll",
+          "155": "gggggggg",
+          "202": "Diving in warm waters",
+          "319": [
+            "Sun and light",
+            null,
+            "Beach and swimming",
+            null
+          ]
+        },
+        {
+          "150": "ååååååå",
+          "155": "öööööööö",
+          "202": "Travelling around",
+          "319": [
+            null,
+            "Ice cream",
+            "Beach and swimming",
+            null
+          ]
+        },
+        {
+          "150": "bbbbb",
+          "155": "ppppp",
+          "202": "Diving in warm waters",
+          "319": [
+            null,
+            "Ice cream",
+            null,
+            "Mosquitoes"
+          ]
+        },
+        {
+          "150": "887987tgyjh",
+          "155": "aa6669",
+          "202": "Coding",
+          "319": [
+            "Sun and light",
+            "Ice cream",
+            "Beach and swimming",
+            "Mosquitoes"
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "surveyTitle": "Most used coding languages",
+      "surveyDescription": "We are studying which coding languages people have used and are using most commonly.",
+      "questions": [
+        {
+          "questionTitle": "Which was the first coding language you learned?",
+          "dropdownQuestionOptions": [
+            "Java",
+            "JavaScript",
+            "Python",
+            "C#",
+            "PHP",
+            "C++ or C",
+            "HTML"
+          ],
+          "questionType": "dropdown",
+          "questionId": 75
+        },
+        {
+          "questionTitle": "Which of these languages you are using at the moment? You can choose one or several answers.",
+          "dropdownQuestionOptions": [
+            "Java",
+            "Java Script",
+            "Python",
+            "C#",
+            "PHP",
+            "C or  C++"
+          ],
+          "questionType": "multiple-choice",
+          "questionId": 370
+        },
+        {
+          "questionTitle": "Which coding language has been the most useful to you, and why?",
+          "dropdownQuestionOptions": "",
+          "questionType": "freetext",
+          "questionId": 98
+        }
+      ],
+      "answers": [
+        {
+          "75": "HTML",
+          "98": ".,m.,m,.",
+          "370": [
+            null,
+            null,
+            null,
+            "C#",
+            "PHP",
+            null
+          ]
+        },
+        {
+          "75": "HTML",
+          "98": "-,,m,.m ,m",
+          "370": [
+            null,
+            "Java Script",
+            null,
+            null,
+            "PHP",
+            null
+          ]
+        },
+        {
+          "75": "Java",
+          "98": ".,m .,m .,m",
+          "370": [
+            "Java",
+            "Java Script",
+            "Python",
+            "C#",
+            "PHP",
+            "C or  C++"
+          ]
+        },
+        {
+          "75": "C#",
+          "98": "mmmmmm",
+          "370": [
+            null,
+            "Java Script",
+            null,
+            null,
+            "PHP",
+            "C or  C++"
+          ]
+        },
+        {
+          "75": "C++ or C",
+          "98": ",.m.,mn,m.",
+          "370": [
+            null,
+            null,
+            null,
+            "C#",
+            null,
+            "C or  C++"
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "surveyTitle": "Basics of JavaScript - Exam",
+      "surveyDescription": "In this exam you have ten questions with dropdown or multiple-choise answers and ten free text questions.",
+      "questions": [
+        {
+          "questionTitle": "How to define a variable within a loop?",
+          "dropdownQuestionOptions": [
+            "const",
+            "let",
+            "var"
+          ],
+          "questionType": "dropdown",
+          "questionId": 857
+        },
+        {
+          "questionTitle": "How to remove the last item from an array?",
+          "dropdownQuestionOptions": [
+            "array.shift()",
+            "array.splice(2, 1)",
+            "array.pop()"
+          ],
+          "questionType": "dropdown",
+          "questionId": 759
+        },
+        {
+          "questionTitle": "What is the main difference between an object and an array?",
+          "dropdownQuestionOptions": "",
+          "questionType": "freetext",
+          "questionId": 964
+        },
+        {
+          "questionTitle": "Which of the following are Java Script arithmetic methods? You can choose one or several answers.",
+          "dropdownQuestionOptions": [
+            "+",
+            "**",
+            "//",
+            "%",
+            "***"
+          ],
+          "questionType": "multiple-choice",
+          "questionId": 382
+        }
+      ],
+      "answers": [
+        {
+          "382": [
+            "+",
+            "**",
+            null,
+            "%",
+            null
+          ],
+          "759": "array.shift()",
+          "857": "let",
+          "964": "hmm...?"
+        },
+        {
+          "382": [
+            "+",
+            null,
+            null,
+            "%",
+            "***"
+          ],
+          "759": "array.shift()",
+          "857": "const",
+          "964": "jjjljbjlb"
+        },
+        {
+          "382": [
+            "+",
+            "**",
+            null,
+            "%",
+            null
+          ],
+          "759": "array.pop()",
+          "857": "var",
+          "964": "nmn.mn.m,"
+        },
+        {
+          "382": [
+            "+",
+            "**",
+            null,
+            "%",
+            null
+          ],
+          "759": "array.pop()",
+          "857": "let",
+          "964": ".j.m.,m.,m"
+        },
+        {
+          "382": [
+            "+",
+            "**",
+            null,
+            "%",
+            null
+          ],
+          "759": "array.pop()",
+          "857": "let",
+          "964": "mm..m"
+        },
+        {
+          "382": [
+            "+",
+            "**",
+            "//",
+            "%",
+            "***"
+          ],
+          "759": "array.shift()",
+          "857": "let",
+          "964": "vvvvvvvv"
+        },
+        {
+          "382": [
+            "+",
+            "**",
+            null,
+            "%",
+            null
+          ],
+          "759": "array.splice(2, 1)",
+          "857": "let",
+          "964": "i dont know"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}

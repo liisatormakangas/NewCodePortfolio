@@ -1,0 +1,21 @@
+.mainLink {
+    text-decoration: none;
+    color: black;
+}
+.links {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 15px;
+    border-color: #1b6a6e;
+    border-width: 3px;
+    margin-bottom: 40px;
+}
+.navbar {
+    background-color: #1b6a6e;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content {
+    margin-bottom: 60px;
+}
+

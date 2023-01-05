@@ -11,17 +11,17 @@ These three code examples are written in a Helsinki Open University course *Adva
 in directory: clock_python
 >Clock was one of the course tasks for practicing the use of Pygame, an open-source library for developing multimedia applications using Python language. The task was just to create a watch dial to show the current time with hour, minute, and second hands. 
 
->The Clock code is quite simple and the application is very small overall. However, making this code to work has been one of the most memorable "victories" during my (yet very short) career in coding when struggling to solve difficult tasks. With this task also knowing the basics of trigonometry helped to solve how to set the end points of the clock hands.
+>The Clock code is quite simple and the application is very small overall. However, making this code to work has been one of the most greatest "victories" during my (yet very short) career in coding when struggling to solve tasks that feel extremely hard to dissolve with the knowledge you have. With this task also knowing the basics of trigonometry helped to solve how to set the end points of the clock hands.
 
 **To run a Pygame application:**
 - first install Pygame to your computer by running a command-line command:
 ```bash
 pip3 install pygame
 ```
-- in your code editor, run the file: clock.py
+- in your code editor/shell, run the file: clock.py
 ### **Robot Game**
 in directory: robogame_python
->This game - also exploiting Pygame - was the final project of the *Advanced Course in Programming*. The task was to create a game with a moving character collecting some things, and including a counter to show the progress in game.
+>This game - also exploiting Pygame - was the final project of the *Advanced Course in Programming*. The task was to create a game with a moving character collecting some things and including a counter to show the progress in game.
 
 **To run a Pygame application:**
 - first install Pygame to your computer by running a command-line command:
@@ -39,12 +39,12 @@ To run the application, run the file: storage.py
 ___
 ## React JavaScript application
 in directory: surveys_javascript
->This application for creating surveys and collecting and visualizing data from surveys was a project work on *Buutti JavaScript Trainee* course during June and July 2022. The project was originally a pair work done in co-operation with a course mate Tuomo Kurikka. The code presented here is modified and refactored since that, and in the present form, more than 90 % of the code is written by me. For example, the original project included a json.db for data storage, which I have later replaced by adding the backend part exploiting MongoDB.
+>This  is an application for creating surveys, collecting survey answers, and visualizing data from surveys. The application was a frontend UI project work on *Buutti JavaScript Trainee* course during June and July 2022. The project was originally a pair work done in co-operation with a course mate Tuomo Kurikka. The code presented here is modified and refactored since that, and in the present form, a wide majority of the code is written by me. At the moment, the application is using JSON server and json.db for data storage. The backend utilizing MongoDB is currently on my to-do-list.
 
 The application is using following technologies and libraries:
 - React and React router
 - Axios for database calls
-- Express.js for creating the backend with MongoDB
+- npm JSON-server for creating REST API backend with bd.json file
 - React Bootstrap for creating UI styling
 - Chart.js to include charts and visualizing data
 
@@ -52,4 +52,7 @@ To start the application from the command line, run:
 ```bash
 npm start
 ``` 
-
+In addition, to get access to db.json, the JSON server needs to be started in another terminal by running:
+```bash
+npm run server
+```

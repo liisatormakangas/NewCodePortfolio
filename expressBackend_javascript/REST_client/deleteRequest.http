@@ -1,0 +1,10 @@
+DELETE http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "_id": "62e297b861950e38eac3689a",
+    "booktitle": "Hobitti",
+    "author": "Tolkien",
+    "read": true,
+    "username": "liisa"
+}

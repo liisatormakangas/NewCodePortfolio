@@ -1,0 +1,9 @@
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "kukkanen",
+    "booktitle": "Margarita",
+    "author": "Kytömäki",
+    "read": true
+}

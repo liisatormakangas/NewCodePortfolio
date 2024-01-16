@@ -79,3 +79,33 @@ Since these files include only the backend part, the application cannot be run a
 You can connect the database either by command line tool mongosh or by GUI MongoDB Compass:
 
 [Compass](https://www.mongodb.com/products/compass)
+
+---
+
+## Code written by Java
+in directory: simpleBackendGame_java
+>This is a simple backend game application written in Java. Creating this application was a small project on Java Basics course at OAMK in Autumn 2023. The project work consists of a Java Spring Boot backend API for a simple paper, rock, scissors game played by two players. The application uses PostgreSQL database for storing the information of the players and of the played games. The database has been handled with pgAdmin4 and it consists of two tables: one for players and one for games. The App is saving the number of victories for each player and rating players based on these. 
+
+The application is using following technologies and libraries:
+- Java Spring Boot
+- PostgreSQL database
+- Maven for dependency management
+
+To create the database, you need to install PostgreSQL and pgAdmin4 and start a new database. Add required database information (URL, username and password) into file: mysimplegame\src\main\resources\application.properties. Database tables can be created by running the following SQL commands:
+```bash
+create table player (
+	id_user serial primary key,
+	username varchar(20),
+	movement varchar(20),
+	victories int,
+	rating varchar (20) 
+);
+create table games (
+	id_game serial primary key,
+	player1 varchar(20),
+	player2 varchar(20),
+	winner varchar(20)
+);
+
+```
+To run the application, you need to install Java and Maven. Then, run the application from Visual Studio Code 'Run' button. Once the application is running, you can test the API and with REST client, Thunder client, Postman or similar API client tester. The API requests can be found in the file: mysimplegame\src\main\java\com\simplegame\mysimplegame\GameController.java.
